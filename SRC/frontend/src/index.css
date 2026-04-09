@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* {
+  cursor: pointer;
+}
+
+button, a, select, input[type="range"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
