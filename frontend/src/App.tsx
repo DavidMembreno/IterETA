@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Splash from "./Splash.tsx";
 
-const API = "http://192.168.1.151:8000";
+const API = "http://localhost:8000";
 
 //  Axios interceptor -- attaches token to every request
 axios.interceptors.request.use((config) => {
